@@ -58,5 +58,9 @@ if [ ! -d "$EXERCISE_DIR" ]; then
     mkdir $EXERCISE_DIR
 fi
 
+# install extra libraries
+pip install osmnx
+pip install momepy
+
 # Go to containing folder
 cd "$NOTEBOOK_DIR"
